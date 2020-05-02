@@ -1,17 +1,18 @@
-# Before you run this for first time only
-# 1. Open a command prompt
-# 2. Install the coloroma module by typing
-#    pip install colorama
+'''
+Before you run this for first time only
+1. Open a command prompt
+2. Install the coloroma module by typing
+   > pip install colorama
 
-# Import and initialise colorama
+Avaialble options
+Fore: BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET.
+Back: BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET.
+Style: DIM, NORMAL, BRIGHT, RESET_ALL
+'''
+# Import required modules
 from colorama import init
 init(autoreset=True)
 from colorama import Fore, Back, Style
-
-# Avaialble options below
-# Fore: BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET.
-# Back: BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET.
-# Style: DIM, NORMAL, BRIGHT, RESET_ALL
 
 # Test out the different colours!
 print(Fore.RED + "This is RED Text")
