@@ -1,5 +1,5 @@
 '''
-Example of how to extract data from a Google Sheet using Google apiId
+Example of how to extract data from a Google Sheet using Google API
 
 Follow instructions to set up the environment here:
 https://medium.com/@m.ivhani/setting-up-a-project-service-accounts-and-oauth-credentials-897b35be4175
