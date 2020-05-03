@@ -17,7 +17,11 @@ def lambda_handler(event, context):
     print(f"BODY: {message_from_slack}")
 
     slack_command = message_from_slack["command"]
-    slack_command_parameter = message_from_slack["text"]
+    try:
+        slack_command_parameter = message_from_slack["text"]
+    except:
+        slack_command_parameter = "NO_COMMAND"
+        pass
 
     print(f"SLACK COMMAND SENT: {slack_command} {slack_command_parameter}")
 
